@@ -4,6 +4,17 @@ ChatRWKV is an advanced language model that is similar to ChatGPT. It is powered
 
 ## Getting Started
 
+### Installation
+```
+git clone https://github.com/BlinkDL/ChatRWKV.git
+```
+**PyTorch**
+Make sure you have PyTorch properly installed with Cuda support
+https://pytorch.org/ [Additional Resource](https://www.youtube.com/watch?v=GMSjDTU8Zlc)
+
+**Download a Model**
+https://huggingface.co/BlinkDL
+
 To get started with ChatRWKV, you should upgrade to the latest code to ensure that you have the most stable version. You can download the RWKV-4 weights from https://huggingface.co/BlinkDL. Note that you should use RWKV-4 models and not RWKV-4a and RWKV-4b models.
 
 The RWKV LM project on GitHub (https://github.com/BlinkDL/RWKV-LM) provides more information about the model, including how to fine-tune and train it. You can also join the RWKV Discord community (https://discord.gg/bDSBUMeFpc) to connect with other developers and build together.
